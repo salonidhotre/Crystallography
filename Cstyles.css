@@ -53,16 +53,17 @@ h6{
 }
 .lbox{
   position: absolute;
-  margin: 20;
+  padding-top: 20px;
+  padding-bottom: 50px;
   background-color: black;
-  left: 2%;
+  left: 5%;
   background-repeat: no-repeat;
 
 }
 .rbox{
   position:absolute;
   left:53%;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 50px;
   background-color: black;
   background-repeat: no-repeat;
@@ -244,4 +245,10 @@ footer{
   text-align: center;
   color: #fff;
   font-size: 8px;
+}
+img{
+  padding:10px;
+}
+br{
+  width: 100%;
 }
