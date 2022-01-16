@@ -185,7 +185,11 @@ h6{
   .right {
   left: 0%;
   }
+.justshift{
+  max-width: fit-content;
 }
+}
+
 
 a{
   text-decoration: none;
