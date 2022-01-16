@@ -1,0 +1,56 @@
+<!DOCTYPE html5>
+<html5 lang="en">   
+    <head> 
+      <link rel="stylesheet" href="CSstyles.css">
+      <link rel="shortcut icon" type="image/x-icon" href="ogtpclogo.png">
+      <title>Crystals</title>  
+    </head>  
+    <body> 
+        <header>
+            <h1>Crystals</h1>
+        </header>
+        <hr>
+        <br><br>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">∧</button>
+        <div class="timeline">
+            <div class="container right">
+                    <h2>Diamond</h2>
+            </div>
+            <div class="container right">
+                <h2>ZnS</h2>
+        </div>
+        <div class="container right">
+            <h2>NaCl</h2>
+    </div>
+    <div class="container right">
+        <h2>Hexagonal Closed Packed (HCP)</h2>
+</div>
+</div>
+        <br>
+        <hr>
+        <br>
+    <footer>Made by - <a href="https://www.instagram.com/dbit_physicsclub/?hl=en" class="underline" target="_blank">The Physics Club</a> @ <a href="https://www.linkedin.com/in/saloni-dhotre" class="underline" target="_blank">Saloni</a></footer>
+    <br>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+</body>
+</html5>
