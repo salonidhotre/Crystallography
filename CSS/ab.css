@@ -19,7 +19,7 @@ img{
 }
 body{
   margin: 0;
-  background-image: url('aboutbg.png');
+  background-image: url('../Assets/aboutbg.png');
   background-position: center;
   background-repeat: repeat;
   align-items: center;
@@ -33,7 +33,7 @@ h1,h5{
     border: none;
 }
 .container{
-  padding: 3px 40px;
+  padding: 20px 70px;
   position: relative;
   background-color: white;
   left:15%;
@@ -51,7 +51,7 @@ h1,h5{
     }
     a{
         text-decoration: none;
-        color: white;
+        color: inherit;
       }
     .forlink{
         font-size: 15px;
