@@ -180,9 +180,9 @@ footer{
 .next {
   background-color: #FF9F55;
   color: white;
-  font-size: 50px;
+  font-size: 500px;
   display: inline-block;
-  padding: 8px 16px;
+  padding: 8px 40px;
 }
 
 .round {
