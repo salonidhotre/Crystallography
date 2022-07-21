@@ -181,7 +181,10 @@ footer{
   background-color: #FF9F55;
   color: white;
   box-sizing: 50px 20px;
+  font-size: 20px;
+  text-align: center;
   padding: 8px 16px;
+  margin: 20px;
 }
 
 .round {
