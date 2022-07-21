@@ -53,7 +53,7 @@ p{
 .container {
   padding: 1px 40px;
   position: relative;
-  background-color: inherit;
+  background-color: black;
   width: 80%;
 }
 
@@ -175,4 +175,13 @@ footer{
   text-align: center;
   color: #fff;
   font-size: 8px;
+}
+
+.next {
+  background-color: #FF9F55;
+  color: white;
+}
+
+.round {
+  border-radius: 4%;
 }
