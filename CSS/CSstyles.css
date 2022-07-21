@@ -53,7 +53,7 @@ p{
 .container {
   padding: 1px 40px;
   position: relative;
-  background-color: black;
+  background-color: inherit;
   width: 80%;
 }
 
@@ -180,6 +180,9 @@ footer{
 .next {
   background-color: #FF9F55;
   color: white;
+  font-size: 50px;
+  display: inline-block;
+  padding: 8px 16px;
 }
 
 .round {
